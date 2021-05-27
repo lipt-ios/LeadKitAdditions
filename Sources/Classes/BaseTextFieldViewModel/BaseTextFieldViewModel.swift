@@ -136,7 +136,7 @@ public extension BaseTextFieldViewModelEvents {
                         rules: [Rule] = [RequiredRule()],
                         validationService: ValidationService,
                         onlineValidationClosure: OnlineValidationClosure? = nil,
-                        onlineValidationThrottle: RxTimeInterval = .milliseconds(500)) {
+                        onlineValidationThrottle: RxTimeInterval = 0.5) {
 
         let dataModelFieldDriver = binding.fieldDriver
 

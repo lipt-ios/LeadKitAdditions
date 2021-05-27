@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '10.0'
     ss.source_files = "Sources/**/*.swift"
 
-    ss.dependency "LeadKit", '~> 0.10.0'
+    ss.dependency "LeadKit", '~> 0.9.14'
     ss.dependency "KeychainAccess", '3.1.0'
-    ss.dependency "CryptoSwift", '~> 0.9.0'
+    ss.dependency "CryptoSwift", '~> 1.4.0'
     ss.dependency "SwiftValidator", '4.0.2'
   end
 
